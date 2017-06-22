@@ -1,0 +1,152 @@
+nav {
+	height: 74px;
+	line-height: 74px;
+	width: 100%;
+}
+
+
+nav .nav-wrapper{
+	height: 100%;
+    position: relative;
+}
+
+nav ul{
+	margin: 0;
+}
+
+nav .nav-brand ul li{
+	margin: 0;
+}
+
+nav a {
+	display: block;
+	cursor: pointer;
+	text-decoration: none;
+}
+
+nav ul li {
+    transition: background-color .3s;
+    float: left;
+    padding: 0;
+}
+
+nav .nav-brand li .brand-name{
+	padding-left: 15px;
+	padding-right: 15px;
+	font-weight: 600;
+	font-size: 1.8rem;
+	white-space: nowrap;
+	text-decoration: none;
+}
+
+
+nav .nav-brand li .brand-name:hover{
+	cursor: pointer;
+}
+
+nav .nav-brand a img{
+	margin-top: 7px;
+	width: 60px;
+	height: 60px;
+}
+
+
+nav .nav-brand.center{
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    position: absolute;
+}
+
+nav .nav-menu.center{
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    position: absolute;
+}
+
+nav .nav-menu a {
+    transition: background-color .3s;
+    font-size: .8rem;
+    padding: 0 15px;
+}
+
+nav .nav-menu a i{
+    transition: background-color .3s;
+/*    font-size: 1rem;*/
+    padding: 28.8 15px;
+}
+
+nav .nav-extend{
+	height: 48px;
+	line-height: 48px;
+}
+
+nav .nav-extend a {
+    transition: background-color .3s;
+    font-size: .7rem;
+    padding: 0 10px;
+}
+
+nav .nav-menu a.btn{
+    margin-top: -2px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+
+/*theme*/
+
+
+nav.dark {
+	background-color: #212121;
+	border-bottom: 2px solid #0E0E0E;
+}
+
+nav.dark ul li a {
+	color: #fff;
+}
+
+nav.dark ul.nav-menu li a:hover {
+    background-color: #303030;
+}
+
+nav.light {
+	background-color: #fff;
+	border-bottom: 2px solid #eee;
+}
+
+nav.light ul li a {
+	color: #212121;
+}
+
+nav.light ul.nav-menu li a:hover {
+    background-color: #eee;
+}
+
+
+nav.dark .nav-extend{
+	background-color: #212121;
+	border-bottom: 2px solid #0E0E0E;
+}
+
+nav.dark ul.nav-extend li a {
+	color: #fff;
+}
+
+nav.dark ul.nav-extend li a:hover {
+    background-color: #303030;
+}
+
+nav.light .nav-extend {
+	background-color: #fff;
+	border-bottom: 2px solid #eee;
+}
+
+nav.light ul.nav-extend li a {
+	color: #212121;
+}
+
+nav.light ul.nav-extend li a:hover {
+    background-color: #eee;
+}

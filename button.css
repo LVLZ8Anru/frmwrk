@@ -1,0 +1,77 @@
+.btn {
+	text-decoration: none;
+	display: inline-block;
+	padding: 10px;
+	margin-bottom: 0;
+	font-size: 15px;
+	font-weight: normal;
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: middle;
+	cursor: pointer;
+	border: 1px solid transparent;
+	border-radius: 1px;
+	transition: .3s;
+	color: #333;
+	background-color: #fff;
+}
+
+/*.btn:hover,.btn:focus{
+	transition: .3s;
+	background-color: #eee;
+}*/
+
+.btn:active{
+	background-color: #A6A6A6;
+}
+
+.btn.block{
+	width: 100%;
+}
+
+.btn.large{
+	padding: 14px;
+	font-size: 17px;
+}
+
+.btn.small{
+	padding: 7px;
+	font-size: 12px;
+}
+
+.btn.mini{
+	padding: 6px;
+	font-size: 9px;
+}
+
+.btn.circle-ss{
+	font-size: 12px;
+	width: 18px;
+	height: 18px;
+	line-height: 18px;
+	border-radius: 50%;
+}
+
+.btn.circle-sm{
+	font-size: 12px;
+	width: 28px;
+	height: 28px;
+	line-height: 28px;
+	border-radius: 50%;
+}
+
+.btn.circle{
+	font-size: 15px;
+	width: 35px;
+	height: 35px;
+	line-height: 35px;
+	border-radius: 50%;
+}
+
+.btn.circle-lg{
+	font-size: 17px;
+	width: 48px;
+	height: 48px;
+	line-height: 48px;
+	border-radius: 50%;
+}
