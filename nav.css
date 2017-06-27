@@ -150,3 +150,11 @@ nav.light ul.nav-extend li a {
 nav.light ul.nav-extend li a:hover {
     background-color: #eee;
 }
+
+nav.light .nav-menu li.open>a{
+    background-color: #eee;
+}
+
+nav.dark .nav-menu li.open>a{
+    background-color: #303030;
+}
