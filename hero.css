@@ -1,69 +1,77 @@
 
 .section{
     background-color: white;
-    padding: 10px 30px;
+    font-size: 1.5rem;
 }
 
 .hero{
     display: block;
+    position: relative;
+    padding: 1rem 3rem;
 }
 
 .hero.hero-md{
-    padding: 150px 30px;
+    padding: 15rem 3rem;
 }
 
 .hero.hero-lg{
-    padding: 280px 30px;
+    padding: 28rem 3rem;
 }
 
 
 .hero-content{
-    padding: 20px 30px;
+    padding: 2rem 3rem;
+    line-height: 2.2rem;
 }
 
 .hero-title{
     font-size: 2.5rem;
     font-weight: 500;
-    line-height: 0.5;
+    line-height: 3rem;
 }
 
 .hero-subtitle{
     color: #696969;
     font-size: 1.5rem;
     font-weight: 400;
-    line-height: 1;
 }
 
 .parallax{
     display: block;
+    margin: 0 auto;
 }
 
 .parallax-img{
-    z-index: -1;
-    min-height: 500px; 
     background-image: url("https://newevolutiondesigns.com/images/freebies/cool-wallpaper-15.jpg");
+    min-height: 500px; 
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    transform: translateZ(-5px) scale(1.01);
 }
 
 .parallax-title{
     font-size: 4rem;
     font-weight: 500;
-    padding: 100px 30px 50px;
-    text-align: center;
+    padding: 7rem 3rem 2rem 0;
 }
 
 .parallax-content{
-    padding: 0px 80px;
+    padding: 0px 80px 80px;
     font-size: 1.5rem;
-    text-align: center;
 }
 
 
 .hero-img{
     min-height: 500px;
     width: 100%;
+}
+
+.parallax-off .parallax-img{
+    background-image: url("https://newevolutiondesigns.com/images/freebies/cool-wallpaper-15.jpg");
+    min-height: 500px; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
 }
