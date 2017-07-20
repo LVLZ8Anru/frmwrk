@@ -1,14 +1,35 @@
-input:not([type]), input[type=text], input[type=password], input[type=email], input[type=url], input[type=time], input[type=date], input[type=datetime], input[type=datetime-local], input[type=tel], input[type=number], input[type=search], textarea {
+input:not([type]), input[type=text], input[type=password], input[type=email], input[type=url], input[type=time], input[type=date], input[type=datetime], input[type=datetime-local], input[type=tel], input[type=number], input[type=search], textarea,select {
+    display: block;
     background-color: transparent;
-    border: 2px solid #d9d9d9;
+    border: 1px solid #d9d9d9;
     border-radius: 1px;
     outline: none;
-    height: 2rem;
+    height: 1.5rem;
     width: 100%;
     font-size: 1rem;
     margin: 0 0 20px 0;
-    padding: 0;
+    padding: 5px;
     box-shadow: none;
     box-sizing: content-box;
-    transition: all 0.3s;
+    transition: padding .5s;
+    line-height: 1.5;
+}
+
+select{
+    cursor: pointer;
+}
+
+.form-field{
+    width: auto;
+    padding: 1em 1em 1em 1em;
+}
+
+label {
+    padding: 0 5px;
+    margin: 0 0 0 0;
+}
+
+input:focus, textarea:focus{
+    border: 1px solid #90CAF9;
+    box-shadow: 0 0 5px #90CAF9;
 }
